@@ -1,0 +1,13 @@
+### Get All Events
+GET http://localhost:3000/api/v1/events
+
+
+### Create a New Event
+POST http://localhost:3000/api/v1/events
+Content-Type: application/json
+
+{
+    "title": "We are going to have a meeting",
+    "description": "Discuss project updates and next steps.",
+    "date": "2026-10-01"
+}
